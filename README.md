@@ -7,22 +7,21 @@ QM algorithm (short for Quine–McCluskey algorith is a method used to minimize 
 ## Usage
 This program takes minterms as inputs. e.g.
 
-$$
-f(A,B,C,D)=\sum m(4,8,10,11,12,15)+d(9,14)
-$$ 
+![image](misc/minterms.gif)
+
 
 To understand this Boolean function more comprehensively, we write it as a table.
 
 | |A|B|C|D|**f**|
 |------|------|------|------|------|------|
-|$m_0$|0|0|0|0|0|
-|$m_1$|0|0|0|1|0|
-|$m_2$|0|0|1|0|0|
-|$m_3$|0|0|1|1|0|
-|$m_4$|0|1|0|0|1|
+|m_0|0|0|0|0|0|
+|m_1|0|0|0|1|0|
+|m_2|0|0|1|0|0|
+|m_3|0|0|1|1|0|
+|m_4|0|1|0|0|1|
 |...|...|...|...|...|...|
-|$m_14$|1|1|1|0|x|
-|$m_15|1|1|1|1|1|
+|m_14|1|1|1|0|x|
+|m_15|1|1|1|1|1|
 
 where `x` in the table means we don't care the output.
 
