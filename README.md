@@ -14,6 +14,7 @@ $$
 To understand this Boolean function more comprehensively, we write it as a table.
 
 | |A|B|C|D|**f**|
+|------|------|------|------|------|------|
 |$m_0$|0|0|0|0|0|
 |$m_1$|0|0|0|1|0|
 |$m_2$|0|0|1|0|0|
